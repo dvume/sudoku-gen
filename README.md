@@ -1,2 +1,2 @@
 # sudoku-gen
-`Sudoku` board generator
+"Sudoku" board generator
