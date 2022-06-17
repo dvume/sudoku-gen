@@ -1,8 +1,10 @@
 package ru.dvume.sudokugen;
 
+import ru.dvume.sudokugen.gen.SudokuBoardImpl;
+
 public class Main {
     public static void main(String[] args) {
-        SudokuBoard s = new SudokuBoard();
+        SudokuBoardImpl s = new SudokuBoardImpl();
         s.fillBoard();
         s.printBoard();
     }
